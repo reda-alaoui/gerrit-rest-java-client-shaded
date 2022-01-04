@@ -1,0 +1,1 @@
+# gerrit-rest-java-client-shaded
