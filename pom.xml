@@ -37,8 +37,12 @@
           </transformers>
           <relocations>
             <relocation>
-              <pattern>com.google.common</pattern>
-              <shadedPattern>me.redaalaoui.gerrit_rest_java_client.thirdparty.com.google.common</shadedPattern>
+              <pattern>com.urswolfer.gerrit.client.rest</pattern>
+              <shadedPattern>me.redaalaoui.gerrit_rest_java_client.rest</shadedPattern>
+            </relocation>
+            <relocation>
+              <pattern>com.google</pattern>
+              <shadedPattern>me.redaalaoui.gerrit_rest_java_client.thirdparty.com.google</shadedPattern>
             </relocation>
           </relocations>
         </configuration>
