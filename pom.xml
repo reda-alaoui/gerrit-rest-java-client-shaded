@@ -45,6 +45,7 @@
               <shadedPattern>me.redaalaoui.gerrit_rest_java_client.thirdparty.com.google</shadedPattern>
             </relocation>
           </relocations>
+          <createSourcesJar>true</createSourcesJar>
         </configuration>
         <executions>
           <execution>
